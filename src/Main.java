@@ -6,7 +6,7 @@ public class Main {
         // суммы пополнения и тп
 
         int initDeposit = 100;
-        int refill = 1001;
+        int refill = 1100;
         int bonusRefill;
 
         // Условным оператором проверяете превысила ли
@@ -20,7 +20,7 @@ public class Main {
             bonusRefill = 0;
         }
 
-        System.out.println("Итоговый счет: " + (initDeposit + refill) + " рублей");
+        System.out.println("Итоговый счет: " + (initDeposit + refill + bonusRefill) + " рублей");
         System.out.println("Количество бонусных рублей: " + bonusRefill + " рублей");
 
     }
